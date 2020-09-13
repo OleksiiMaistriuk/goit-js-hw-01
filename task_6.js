@@ -13,7 +13,11 @@ let total = 0;
 
 for (let i = 0; i !== null; i = prompt("введи число")) {
   i = Number(i);
-  total += i;
+  if (Number.isNaN(i) === true) {
+    alert("Было введено не число, попробуйте еще раз");
+  } else {
+    total += i;
+  }
 }
 
 alert(`Общая сумма чисел равна ${total}`);
