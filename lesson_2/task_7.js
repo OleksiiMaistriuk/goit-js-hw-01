@@ -18,7 +18,7 @@ function filterArray(array) {
 
 //console.log(filterArray([1, NaN, Infinity]));
 // [1]
-
+// 
 //console.log(filterArray([0, -0, 100, '100']));
 // [0, 0, 100]
 

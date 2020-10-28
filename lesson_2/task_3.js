@@ -17,3 +17,4 @@ console.log(findLongestWord("Google do a roll"));
 
 console.log(findLongestWord("May the force be with you"));
 // 'force'
+let longestWord = stringWords[0];

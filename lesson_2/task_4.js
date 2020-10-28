@@ -2,7 +2,7 @@ function formatString(string, maxLength = 40) {
   const dots = "...";
 
   if (string.length > maxLength) {
-    return string.slice(0, maxLength).concat(dots);
+    return string.slice(0, maxLenght).concat(dots);
   } else if (string.length < maxLength) {
     return string;
   }
